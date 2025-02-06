@@ -5,7 +5,7 @@ import reversiImg from '../assets/reversi-img.png'
 
 export default function Project() {
   return (
-    <div className="project-container">
+    <div className="project-container" id="projects">
       <h1>Projects</h1>
       <div className="card-container">
         <Card img={binaryImg} title="Binary Convertor" description="C++ TinkerCad" source="https://github.com/Shin417/Binary-Converter"/>

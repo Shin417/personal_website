@@ -11,9 +11,9 @@ export default function Header(){
         <Container className='header-container'>
             <Navbar.Brand href="#home" className='header-icon-container'><img src={iconImage} alt="icon" /></Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">About Me</Nav.Link>
-            <Nav.Link href="#features">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link href="#about-me">About Me</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

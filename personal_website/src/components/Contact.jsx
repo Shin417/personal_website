@@ -4,11 +4,11 @@ import emailjs from '@emailjs/browser'
 export default function Contact(){
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_53fit8u', '', e.target, import.meta.env.VITE_EMAIL_PUBLIC_KEY);
+        emailjs.sendForm('service_53fit8u', 'template_qh3cwby', e.target, 'AIF0v5GbQdtZt8Xq9');
     }
 
     return(
-        <div className='contact-section'>
+        <div className='contact-section' id='contact'>
             <h1>Contact</h1>
             <div className='contact-content'>
                 <form onSubmit={sendEmail}>
