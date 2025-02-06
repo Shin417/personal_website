@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser'
 export default function Contact(){
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm(import.meta.env.VITE_EMAIL_SERVICE_ID, import.meta.env.VITE_EMAIL.TEMPLATE_ID, e.target, import.meta.env.VITE_EMAIL_PUBLIC_KEY);
+        emailjs.sendForm('service_53fit8u', '', e.target, import.meta.env.VITE_EMAIL_PUBLIC_KEY);
     }
 
     return(
