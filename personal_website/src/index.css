@@ -43,9 +43,18 @@ body{
   font-style: normal;
   font-size: 3vw;
 }
+
+.me-auto a:visited{
+  color: #F6F4F0;
+}
+
 .nav-link{
   color: #F6F4F0;
   margin-right: 20px;
+}
+
+.drop-menu{
+  display: none;
 }
 
 .mast{
@@ -221,11 +230,13 @@ body{
 
 .content-list-container{
   width: 100%;
-  height: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0;
 }
 
 .content-list-container div{
-  max-width: 100%;
+  width: 100%;
 }
 
 .content-list-container div h1{
@@ -234,6 +245,7 @@ body{
   font-style: normal;
   color: #232B2B;
   font-size: 2rem;
+  width: 100%;
 }
 
 .content-list-container div p{
@@ -243,6 +255,7 @@ body{
   color: #232B2B;
   font-size: 1.5rem;
   padding-left: 20px;
+  overflow-wrap: break-word;
 }
 
 .education-section{
@@ -364,7 +377,7 @@ body{
 }
 
 .card-frame{
-  width: 300px;
+  width: 280px;
   height: 400px;
   margin-top: 30px;
   background-color: #79D7BE;
@@ -384,6 +397,7 @@ body{
   height: 60%;
   display: flex;
   justify-content: center;
+  aspect-ratio: 10/6;
   align-items: center;
   overflow: hidden;
   border-top-left-radius: 20px;
@@ -392,7 +406,8 @@ body{
 
 .card-img img{
   height: 100%;
-  width: auto;
+  width: 100%;
+  object-fit: cover;
 }
 
 .card-info{
@@ -561,11 +576,22 @@ a{
   }
 
   .me-auto{
-    font-size: 6vw;
+    display: none;
   }
 
-  .nav-link{
-    margin-right: 5px;
+  .navbar-expand{
+    justify-content: space-between;
+  }
+
+
+
+  .drop-menu{
+    display: block;
+  }
+
+  #dropdown-basic{
+    background-color: #2E5077;
+    border: none;
   }
 
   .mast-para p{
@@ -593,4 +619,5 @@ a{
 
 
 }
+
 

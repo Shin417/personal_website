@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "../assets/profile_image.jpg";
+import profileImage from "../assets/profile_selfie.jpg";
 import githubIcon from "../assets/github-mark.svg";
 import linkedInIcon from "../assets/linkedin.png";
 import LogoLink from "./LogoLink.jsx";

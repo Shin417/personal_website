@@ -1,5 +1,5 @@
 import React from 'react'
-import selfie1 from '../assets/spongebob.png'
+import selfie1 from '../assets/mast_selfie.jpg'
 
 export default function Mast(props){
     const {message} = props;

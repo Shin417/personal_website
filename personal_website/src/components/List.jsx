@@ -13,7 +13,7 @@ const contentList = [
     {
         id: 3,
         title: "FrameWork / Library",
-        items: "React, ASP.NET, Pandas, OpenPyXl"
+        items: "React, ASP.NET, Flask, Pandas, OpenPyXl"
     },
     {
         id: 4,

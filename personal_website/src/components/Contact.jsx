@@ -43,8 +43,10 @@ export default function Contact() {
           <div className="input-box">
             <label htmlFor="name">Full Name</label>
             <input
+              autoComplete="on"
               type="text"
               name="name"
+              id="name"
               className="input-field"
               placeholder="Your name"
               required
@@ -53,8 +55,10 @@ export default function Contact() {
           <div className="input-box">
             <label htmlFor="email">Email Address</label>
             <input
+            autoComplete="on"
               type="email"
               name="email"
+              id="email"
               className="input-field"
               placeholder="Email address"
               required
